@@ -6,8 +6,21 @@ For details, please refer to:
 [1] Wei, Yi, Xin You, Hailong Yang, Zhongzhi Luan, and Depei Qian. "Towards GPU Acceleration of Phonon Computation with ShengBTE." In Proceedings of the International Conference on High Performance Computing in Asia-Pacific Region, pp. 32-42. 2020.
 
 ## How to build
-
+First you need to modify the compilation parameters in `arch.make.example` and `Src/Makefile`.
+```bash
+cp arch.make.example Src/arch.make
+cd Src
+make
+```
 ## How to run
+ShengBTE commands can be run directly from the dataset folder without additional parameters. It's better to make sure the machine has enough memory.
+```bash
+cp Test-QE
+mpirun -n 14 ../ShengBTE
+```
+--------------------------------------------------------------
+The following is the Readme of the author of ShengBTE software
+--------------------------------------------------------------
 
 # `ShengBTE`: a solver for the Boltzmann transport equation for phonons
 
