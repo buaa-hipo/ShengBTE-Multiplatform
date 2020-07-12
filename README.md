@@ -6,7 +6,8 @@ We have carried out vectorization optimization and multithreading optimization, 
 A smaller number of processes means ShengBTE no longer requires a lot of memory.
 
 For details, please refer to:
-[1] Yi Wei, Xin You, Hailong Yang, Zhongzhi Luan and Depei Qian. Towards GPU Acceleration of Phonon Computation with ShengBTE, HPCAsian, 2019
+
+[1] Wei, Yi, Xin You, Hailong Yang, Zhongzhi Luan, and Depei Qian. "Towards GPU Acceleration of Phonon Computation with ShengBTE." In Proceedings of the International Conference on High Performance Computing in Asia-Pacific Region, pp. 32-42. 2020.
 
 # `ShengBTE`: a solver for the Boltzmann transport equation for phonons
 
