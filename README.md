@@ -1,9 +1,5 @@
 ## This work provides a GPU optimized version of original ShengBTE
-We have ported the three phonon process to the GPU for acceleration. The source code is listed in Src-gpu.
-
-## 2.Src-knl is a version for KNL(or other CPU with a big num cores).
-We have carried out vectorization optimization and multithreading optimization, which can get a good running speed with a small number of processes.
-A smaller number of processes means ShengBTE no longer requires a lot of memory.
+We have ported the three phonon process to the GPU for acceleration. The source code is listed in Src-gpu. We have also carried out vectorization optimization and multithreading optimization on Intel KNL (source code listed in Src-knl), which can get a good running speed with a small number of processes. A smaller number of processes means ShengBTE no longer requires a lot of memory.
 
 For details, please refer to:
 
